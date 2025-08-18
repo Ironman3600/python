@@ -3,10 +3,11 @@
 #
 # print(dictionary.get('g',"'g' not found"))
 
-for i in range(1,11):
-  print("original list: ",i)
+original_list = list(range(1, 11))
+print("original list: ",original_list)
 b=list(range(1,6))
 c = b[::-1]
 
 print("Extracted first five elements: ",b)
 print("Reversed extracted elements: ",c)
+
